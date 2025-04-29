@@ -1,10 +1,10 @@
 # IAG Sandbox Project: Claims Inflation Forecasting
 
 ## Overview
-This project was developed as part of the IAG Sandbox initiative, focusing on forecasting future claims inflation for commercial motor vehicle insurance portfolios. The objective was to support IAG’s capital reserve optimization and pricing strategies by building predictive models for claims frequency and severity.
+This project was developed as part of the IAG Sandbox initiative, focusing on forecasting future claims inflation for commercial motor vehicle insurance portfolios. The objective was to support IAG’s capital reserve optimisation and pricing strategies by building predictive models for claims frequency and severity.
 
 ## Project Motivation
-Accurately predicting claims inflation is crucial for insurers to maintain financial stability, optimize reserves, and price premiums appropriately. By using both internal policyholder data and key external economic indicators, our solution provides actionable forecasts for future claims costs.
+Accurately predicting claims inflation is crucial for insurers to maintain financial stability, optimise reserves, and price premiums appropriately. By using both internal policyholder data and key external economic indicators, our solution provides actionable forecasts for future claims costs.
 
 ## Data Sources
 - **Internal Variables**: Claim exposure, policy tenure, vehicle age, total sum insured, vehicle class, state, and calendar month of claim (ACTL31425110AssignmentData2022.csv).
@@ -19,7 +19,7 @@ All external variables were lagged appropriately (monthly or quarterly) to ensur
 
 ## Methodology
 - **Model Construction**: 
-  - Two generalized linear models (GLMs) were developed separately for:
+  - Two generalised linear models (GLMs) were developed separately for:
     - **Claim Frequency** (assumed Poisson distribution)
     - **Claim Severity** (assumed Gamma distribution)
   - Both monthly aggregate and per-policy approaches were trialled.
@@ -50,13 +50,13 @@ All external variables were lagged appropriately (monthly or quarterly) to ensur
 ## My Contribution
 I was responsible for developing the Monthly Claim Numbers Model, a key component of the project’s claims frequency forecasting.
 Specifically, my contributions included:
-- Performing exploratory data analysis (EDA) and initial modeling of internal and external datasets.
+- Performing exploratory data analysis (EDA) and initial modelling of internal and external datasets.
 - Building a Poisson regression model to predict the number of claims per month.
 - Producing a one-year forecast of monthly claim counts.
 - Validating the model’s predictions against actual historical data.
 
 Relevant files:
-- Assignment Code.R: Contains EDA, feature selection, and initial modeling.
+- Assignment Code.R: Contains EDA, feature selection, and initial modelling.
 - Monthly Claim Numbers.R: Final model construction, forecasting, and outputs.
 
 Datasets Used:
@@ -76,8 +76,8 @@ Outputs Generated:
 
 ## Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/Manjot44/IAG-Sandbox-Project.git
+  ```bash
+  git clone https://github.com/Manjot44/IAG-Sandbox-Project.git
 
 2. Pull Git LFS files:
   ```bash
