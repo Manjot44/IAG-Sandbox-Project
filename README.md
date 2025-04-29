@@ -7,13 +7,13 @@ This project was developed as part of the IAG Sandbox initiative, focusing on fo
 Accurately predicting claims inflation is crucial for insurers to maintain financial stability, optimise reserves, and price premiums appropriately. By using both internal policyholder data and key external economic indicators, our solution provides actionable forecasts for future claims costs.
 
 ## Data Sources
-- **Internal Variables**: Claim exposure, policy tenure, vehicle age, total sum insured, vehicle class, state, and calendar month of claim (ACTL31425110AssignmentData2022.csv).
+- **Internal Variables**: Claim exposure, policy tenure, vehicle age, total sum insured, vehicle class, state, and calendar month of claim (`ACTL31425110AssignmentData2022.csv`).
 - **External Variables**:
-  - Wage growth data (Annual wage growth - 1998 to 2022.csv)
-  - Mogas 95 petrol futures price (Mogas_95.csv)
-  - Goods and services imports index (Import data.csv)
-  - Vehicle manufacturing producer price indexes (ProducerIndex.csv, ProducerIndex1.csv)
-  - Unemployment rate (Unemployment rate.csv)
+  - Wage growth data (`Annual wage growth - 1998 to 2022.csv`)
+  - Mogas 95 petrol futures price (`Mogas_95.csv`)
+  - Goods and services imports index (`Import data.csv`)
+  - Vehicle manufacturing producer price indexes (`ProducerIndex.csv`, `ProducerIndex1.csv`)
+  - Unemployment rate (`Unemployment rate.csv`)
 
 All external variables were lagged appropriately (monthly or quarterly) to ensure real-world prediction capability.
 
@@ -56,17 +56,17 @@ Specifically, my contributions included:
 - Validating the model’s predictions against actual historical data.
 
 Relevant files:
-- Assignment Code.R: Contains EDA, feature selection, and initial modelling.
-- Monthly Claim Numbers.R: Final model construction, forecasting, and outputs.
+- `Assignment Code.R`: Contains EDA, feature selection, and initial modelling.
+- `Monthly Claim Numbers.R`: Final model construction, forecasting, and outputs.
 
 Datasets Used:
-- Internal claims data: ACTL31425110AssignmentData2022.csv
-- External indicators: Annual wage growth - 1998 to 2022.csv, Mogas_95.csv, Import data.csv, ProducerIndex.csv, ProducerIndex1.csv, Unemployment rate.csv
+- Internal claims data: `ACTL31425110AssignmentData2022.csv`
+- External indicators: `Annual wage growth - 1998 to 2022.csv`, `Mogas_95.csv`, `Import data.csv`, `ProducerIndex.csv`, `ProducerIndex1.csv`, `Unemployment rate.csv`
 
 Outputs Generated:
-- Claim Numbers.csv: Comparison of true vs. predicted monthly claim numbers.
-- Yearly Prediction.csv: One-year forecast of future claims volume.
-- cloned data.csv: Sample cloned policyholder data for future projections.
+- `Claim Numbers.csv`: Comparison of true vs. predicted monthly claim numbers.
+- `Yearly Prediction.csv`: One-year forecast of future claims volume.
+- `cloned data.csv`: Sample cloned policyholder data for future projections.
 
 ## Final Presentation of our Solution  
 [Click here to view the presentation](./Final%20Presentation.mp4)
