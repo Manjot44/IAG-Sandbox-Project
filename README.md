@@ -73,11 +73,11 @@ Outputs Generated:
 
 ## Installation
 1. Clone the repository:
-  ```bash
-  git clone https://github.com/Manjot44/IAG-Sandbox-Project.git
+   ```bash
+   git clone https://github.com/Manjot44/IAG-Sandbox-Project.git
 
 2. Pull Git LFS files:
-  ```bash
-  cd IAG-Sandbox-Project
-  git lfs pull
+   ```bash
+   cd IAG-Sandbox-Project
+   git lfs pull
 
