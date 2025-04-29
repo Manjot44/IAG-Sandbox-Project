@@ -68,11 +68,8 @@ Outputs Generated:
 - Yearly Prediction.csv: One-year forecast of future claims volume.
 - cloned data.csv: Sample cloned policyholder data for future projections.
 
-## Demo
-📽️ **Video Walkthrough of the Final Solution:**  
-[Insert your YouTube/Google Drive/Vimeo link here]
-
-*(If you prefer, you can embed a thumbnail with a clickable link too! I can show you how.)*
+## Final Presentation of our Solution:**  
+[Click here to view the presentation](./"Final Presentation.mp4")
 
 ## Installation
 1. Clone the repository:
