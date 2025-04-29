@@ -78,4 +78,9 @@ Outputs Generated:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Manjot44/IAG-Sandbox-Project.git
-   cd IAG-Sandbox-Project
+
+2. Pull Git LFS files:
+  ```bash
+  cd IAG-Sandbox-Project
+  git lfs pull
+
